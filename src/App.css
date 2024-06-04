@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+h2, h1{
+  filter: drop-shadow(5px 8px 8px rgb(96, 96, 96));
+}
+body{
+  background-image: url('../public/background.jpg');
+  opacity: 0.9;
+}
+.table-group{
+  border: 1px solid #ccc;
+  /* margin: 10px; */
+  border-collapse: collapse;
+  box-shadow: 5px 5px 12px 3px gray;
+  
+}
+td, th{
+  padding: 5px;
+  /* margin: 10px; */
+  /* border: 1px solid #ccc !important; */
+}
+.group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 5px 12px 2px gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+.group input{
+  
+  width: 80%;
+  margin-right: 5px;
+  padding: 6px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
