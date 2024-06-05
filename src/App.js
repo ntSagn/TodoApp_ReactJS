@@ -4,11 +4,12 @@ import './App.css';
 import Header from './components/Header';
 
 function App() {
-
+  
   function createDataExample() {
     const data = [{ name: 'Task 1', time: '6/4/2024, 10:30:23 PM', isCompleted: false }, { name: 'Task 2', time: '6/4/2024, 10:30:23 PM', isCompleted: false }, { name: 'Task 3', time: '6/4/2024, 10:30:23 PM', isCompleted: false }]
     return data;
   }
+
   const [todos, setTodos] = useState(createDataExample());
   /*
     task = {

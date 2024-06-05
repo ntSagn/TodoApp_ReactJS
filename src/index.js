@@ -13,8 +13,8 @@ export default function Index() {
     <BrowserRouter>
       <Routes>
         {/* <Route path="/" element={<App />} > */}
-          <Route index element={<App />}/>
-          <Route path="/login" element={<Login />}/>
+          <Route index element={<Login />}/>
+          <Route path="/home" element={<App />}/>
         {/* </Route> */}
       </Routes>
     </BrowserRouter>
