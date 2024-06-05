@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
 
@@ -52,6 +53,8 @@ function App() {
   }
 
   return (
+    <>
+    <Header />
     <div className="container m-auto col-6">
       <h1 className='text-center mt-3'>Todo App</h1>
       <form onSubmit={addTask}>
@@ -96,6 +99,7 @@ function App() {
 
       </div>
     </div>
+    </>
   );
 }
 
